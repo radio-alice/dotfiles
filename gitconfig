@@ -1,0 +1,14 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = Zach Sherman
+	email = zach@anemon.es
+[color]
+	ui = auto
+[init]
+	templateDir = ~/.config/git/template/
+[core]
+	editor = nvim

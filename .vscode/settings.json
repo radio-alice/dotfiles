@@ -1,0 +1,7 @@
+{
+  "git.ignoredRepositories": [
+    "dotbot",
+    "ohmyzsh",
+    "pyyaml"
+  ]
+}
