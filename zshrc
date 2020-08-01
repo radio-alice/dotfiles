@@ -111,3 +111,15 @@ play() {
         cd ~/Desktop/coding && cd $1 && ls
     fi
 }
+
+note() {
+    if [ -f ~/Desktop/Notes/foam/$(date +%m.%d.%Y).md ]; then
+        cd ~/Desktop/Notes/foam \
+        && code $(date +%m.%d.%Y).md
+    else
+        cd ~/Desktop/Notes/foam \
+        && touch $(date +%m.%d.%Y).md \
+        && echo "# $(date +%m.%d.%Y)\n+tags [[daily]]" > $(date +%m.%d.%Y).md\
+        && code $(date +%m.%d.%Y).md
+    fi
+}
