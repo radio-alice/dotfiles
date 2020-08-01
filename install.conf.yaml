@@ -6,10 +6,14 @@
 
 - link:
     ~/.dotfiles: ''
-    ~/.vimrc: vimrc
+    ~/.config/nvim/init.vim:
+      path: vimrc
+      create: true
+    ~/.vim/colors: vim
     ~/.oh-my-zsh: ohmyzsh
     ~/.gitconfig: gitconfig
     ~/.hyper.js: hyper.js
+    ~/.hyper_plugins/local: hyper
     ~/.zshrc: zshrc
     ~/.finda/paths_to_search.conf: finda/paths_to_search.conf
     ~/.finda/shortcut.conf: finda/shortcut.conf
