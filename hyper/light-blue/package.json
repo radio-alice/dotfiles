@@ -1,9 +1,0 @@
-{
-  "name": "light-blue",
-  "version": "3.1.1",
-  "keywords": [
-    "light",
-    "hyper"
-  ],
-  "main": "light-blue/index.js"
-}
