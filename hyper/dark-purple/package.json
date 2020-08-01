@@ -1,0 +1,10 @@
+{
+  "name": "dark-purple",
+  "version": "3.1.1",
+  "description": "dark purple",
+  "keywords": [
+    "dark",
+    "hyper"
+  ],
+  "main": "dark-purple/index.js"
+}

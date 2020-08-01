@@ -1,0 +1,10 @@
+{
+  "name": "light-purple",
+  "version": "3.1.1",
+  "description": "light purple",
+  "keywords": [
+    "light",
+    "hyper"
+  ],
+  "main": "light-purple/index.js"
+}

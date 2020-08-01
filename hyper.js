@@ -12,7 +12,7 @@ module.exports = {
     fontSize: 15,
 
     // font family with optional fallbacks
-    fontFamily: 'Roboto Mono, monospace',
+    fontFamily: 'Space Mono, monospace',
 
     // default font weight: 'normal' or 'bold'
     fontWeight: 'normal',
@@ -199,10 +199,10 @@ module.exports = {
   // `~/.hyper_plugins/local/` and include it here
   // to load it and avoid it being `npm install`ed
   localPlugins: [
-    // 'themer-hyper-light',
-    'cloud-dark',
-    // 'themer-hyper-dark',
-    // 'cloud-light',
+    'light-purple',
+    // 'dark-purple',
+    // 'dark-blue',
+    // 'light-blue'
   ],
 
   keymaps: {
