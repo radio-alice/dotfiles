@@ -123,3 +123,16 @@ note() {
         && code $(date +%m.%d.%Y).md
     fi
 }
+
+function reload_nvim {
+    for SERVER in $(nvr --serverlist); do
+        nvr -cc "source ~/.config/nvim/init.vim" --servername $SERVER &
+    done
+}
+
+COLOR_DIR="$HOME/.config/alacritty/colors"
+LIGHT_COLOR='anemones-light.yml'
+DARK_COLOR='clouds-dark.yml'
+
+alias day="alacritty-colorscheme -C $COLOR_DIR -a $LIGHT_COLOR -V && reload_nvim"
+alias night="alacritty-colorscheme -C $COLOR_DIR -a $DARK_COLOR -V && reload_nvim"

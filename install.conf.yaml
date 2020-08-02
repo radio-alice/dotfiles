@@ -16,6 +16,12 @@
     ~/.finda/paths_to_search.conf: finda/paths_to_search.conf
     ~/.finda/shortcut.conf: finda/shortcut.conf
     ~/.finda/theme.css: finda/theme.css
+    ~/.config/alacritty/alacritty.yml:
+      path: alacritty.yml
+      create: true
+    ~/.config/alacritty/colors:
+      path: alacritty
+      create: true
 
 - shell:
     - git submodule sync --recursive

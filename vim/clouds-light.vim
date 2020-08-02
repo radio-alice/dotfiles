@@ -1,47 +1,3 @@
-
-
-
-  if &background == 'dark'
-
-  let s:guishade0 = "#00106a"
-  let s:guishade1 = "#23327a"
-  let s:guishade2 = "#45548b"
-  let s:guishade3 = "#68769b"
-  let s:guishade4 = "#8b99ab"
-  let s:guishade5 = "#aebbbb"
-  let s:guishade6 = "#d0ddcc"
-  let s:guishade7 = "#f3ffdc"
-  let s:guiaccent0 = "#ff009c"
-  let s:guiaccent1 = "#ffa685"
-  let s:guiaccent2 = "#ffdd5d"
-  let s:guiaccent3 = "#9bdabb"
-  let s:guiaccent4 = "#d2ebff"
-  let s:guiaccent5 = "#ffc8f5"
-  let s:guiaccent6 = "#2eacff"
-  let s:guiaccent7 = "#ff4ab9"
-  let s:ctermshade0 = 18
-  let s:ctermshade1 = 60
-  let s:ctermshade2 = 67
-  let s:ctermshade3 = 103
-  let s:ctermshade4 = 145
-  let s:ctermshade5 = 249
-  let s:ctermshade6 = 252
-  let s:ctermshade7 = 230
-  let s:ctermaccent0 = 199
-  let s:ctermaccent1 = 217
-  let s:ctermaccent2 = 222
-  let s:ctermaccent3 = 152
-  let s:ctermaccent4 = 195
-  let s:ctermaccent5 = 225
-  let s:ctermaccent6 = 75
-  let s:ctermaccent7 = 206
-
-  endif
-
-
-
-  if &background == 'light'
-
   let s:guishade0 = "#d3e5ff"
   let s:guishade1 = "#b8c4e5"
   let s:guishade2 = "#9da4cb"
@@ -75,12 +31,9 @@
   let s:ctermaccent6 = 199
   let s:ctermaccent7 = 19
 
-  endif
-
-
   highlight clear
   syntax reset
-  let g:colors_name = "clouds"
+  let g:colors_name = "clouds-light"
 
   """"""""""
   " Normal "

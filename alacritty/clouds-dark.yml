@@ -1,0 +1,43 @@
+# Themer Alacritty
+colors:
+  primary:
+    background: '#00106a'
+    foreground: '#d0ddcc'
+
+  cursor:
+    text: '#00106a'
+    cursor: '#2eacff'
+
+  selection:
+    text: '#00106a'
+    background: '#ffc8f5'
+
+  normal:
+    black: '#45548b'
+    red: '#ff009c'
+    green: '#9bdabb'
+    yellow: '#ffdd5d'
+    blue: '#ffc8f5'
+    magenta: '#ff4ab9'
+    cyan: '#d2ebff'
+    white: '#d0ddcc'
+
+  bright:
+    black: '#68769b'
+    red: '#FD33A9'
+    green: '#ADE1C2'
+    yellow: '#FDE476'
+    blue: '#FDD3F0'
+    magenta: '#FD6EC0'
+    cyan: '#D9EFF8'
+    white: '#f3ffdc'
+
+  dim:
+    black: '#23327a'
+    red: '#CC0392'
+    green: '#7CB2AB'
+    yellow: '#CCB460'
+    blue: '#CCA3D9'
+    magenta: '#CC3EA9'
+    cyan: '#A8BFE1'
+    white: '#aebbbb'

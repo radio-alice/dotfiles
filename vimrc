@@ -124,12 +124,14 @@ highlight Pmenu ctermbg=DarkGray guibg=DarkGray
 " use truecolor
 set termguicolors
 
-" use ligt theme
-set background=light
-
 " use purple theme
-colorscheme anemones
+colorscheme "anemones-light"
 
+" use alacritty color scheme
+if filereadable(expand("~/.vimrc_background"))
+  let base16colorspace=256          " Remove this line if not necessary
+  source ~/.vimrc_background
+endif
 
 " Add optional packages.
 "

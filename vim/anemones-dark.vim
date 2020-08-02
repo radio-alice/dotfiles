@@ -1,8 +1,3 @@
-
-
-
-  if &background == 'dark'
-
   let s:guishade0 = "#150049"
   let s:guishade1 = "#331f63"
   let s:guishade2 = "#513f7d"
@@ -36,51 +31,11 @@
   let s:ctermaccent6 = 75
   let s:ctermaccent7 = 206
 
-  endif
-
-
-
-  if &background == 'light'
-
-  let s:guishade0 = "#eae2ff"
-  let s:guishade1 = "#ccc2e5"
-  let s:guishade2 = "#ada1cb"
-  let s:guishade3 = "#8f81b1"
-  let s:guishade4 = "#706197"
-  let s:guishade5 = "#52417d"
-  let s:guishade6 = "#332063"
-  let s:guishade7 = "#150049"
-  let s:guiaccent0 = "#f14100"
-  let s:guiaccent1 = "#00bce1"
-  let s:guiaccent2 = "#0024f3"
-  let s:guiaccent3 = "#009892"
-  let s:guiaccent4 = "#750091"
-  let s:guiaccent5 = "#007699"
-  let s:guiaccent6 = "#ed0090"
-  let s:guiaccent7 = "#0018b1"
-  let s:ctermshade0 = 254
-  let s:ctermshade1 = 252
-  let s:ctermshade2 = 146
-  let s:ctermshade3 = 246
-  let s:ctermshade4 = 103
-  let s:ctermshade5 = 96
-  let s:ctermshade6 = 60
-  let s:ctermshade7 = 17
-  let s:ctermaccent0 = 202
-  let s:ctermaccent1 = 44
-  let s:ctermaccent2 = 27
-  let s:ctermaccent3 = 37
-  let s:ctermaccent4 = 91
-  let s:ctermaccent5 = 31
-  let s:ctermaccent6 = 199
-  let s:ctermaccent7 = 19
-
-  endif
 
 
   highlight clear
   syntax reset
-  let g:colors_name = "anemones"
+  let g:colors_name = "anemones-dark"
 
   """"""""""
   " Normal "
