@@ -16,11 +16,17 @@
     ~/.finda/paths_to_search.conf: finda/paths_to_search.conf
     ~/.finda/shortcut.conf: finda/shortcut.conf
     ~/.finda/theme.css: finda/theme.css
-    ~/.config/alacritty/alacritty.yml:
-      path: alacritty.yml
+    # ~/.config/alacritty/alacritty.yml:
+    #   path: alacritty.yml
+    #   create: true
+    # ~/.config/alacritty/colors:
+    #   path: alacritty
+    #   create: true
+    ~/.config/kitty/kitty.conf:
+      path: kitty.conf
       create: true
-    ~/.config/alacritty/colors:
-      path: alacritty
+    ~/.config/kitty/colors:
+      path: kitty
       create: true
 
 - shell:
